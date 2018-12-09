@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="52" passed="52">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="383" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="383" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:50Z">
+      <class name="by.epam.javatraining.halavin.taskone.test.DotTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="beforeClass" is-config="true" duration-ms="24" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dotCopyConstructorTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotCopyConstructorTest" duration-ms="10" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotCopyConstructorTest -->
+        <test-method status="PASS" signature="dotEqualsTestFalse()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotEqualsTestFalse" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotEqualsTestFalse -->
+        <test-method status="PASS" signature="dotEqualsTestTrue()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotEqualsTestTrue" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotEqualsTestTrue -->
+        <test-method status="PASS" signature="dotGetXTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotGetXTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotGetXTest -->
+        <test-method status="PASS" signature="dotGetYTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotGetYTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotGetYTest -->
+        <test-method status="PASS" signature="dotGetZTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotGetZTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotGetZTest -->
+        <test-method status="PASS" signature="dotHashCodeTestFalse()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotHashCodeTestFalse" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotHashCodeTestFalse -->
+        <test-method status="PASS" signature="dotHashCodeTestTrue()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotHashCodeTestTrue" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotHashCodeTestTrue -->
+        <test-method status="PASS" signature="dotParameterConstructorTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotParameterConstructorTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotParameterConstructorTest -->
+        <test-method status="PASS" signature="dotSetXTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotSetXTest" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotSetXTest -->
+        <test-method status="PASS" signature="dotSetYTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotSetYTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotSetYTest -->
+        <test-method status="PASS" signature="dotSetZTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotSetZTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotSetZTest -->
+        <test-method status="PASS" signature="dotToString()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.DotTest@2f8f11]" name="dotToString" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotToString -->
+      </class> <!-- by.epam.javatraining.halavin.taskone.test.DotTest -->
+      <class name="by.epam.javatraining.halavin.taskone.test.ValidatorTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ValidatorTest@193948d]" name="beforeClass" is-config="true" duration-ms="27" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="validatorConeNegTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ValidatorTest@193948d]" name="validatorConeNegTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatorConeNegTest -->
+        <test-method status="PASS" signature="validatorConeTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ValidatorTest@193948d]" name="validatorConeTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatorConeTest -->
+        <test-method status="PASS" signature="validatorDotNegTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ValidatorTest@193948d]" name="validatorDotNegTest" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatorDotNegTest -->
+        <test-method status="PASS" signature="validatorDotTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ValidatorTest@193948d]" name="validatorDotTest" duration-ms="4" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatorDotTest -->
+      </class> <!-- by.epam.javatraining.halavin.taskone.test.ValidatorTest -->
+      <class name="by.epam.javatraining.halavin.taskone.test.ConeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="coneCopyConstructorTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneCopyConstructorTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneCopyConstructorTest -->
+        <test-method status="PASS" signature="coneEqualsTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneEqualsTest" duration-ms="4" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneEqualsTest -->
+        <test-method status="PASS" signature="coneGetCentreDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetCentreDot" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetCentreDot -->
+        <test-method status="PASS" signature="coneGetCentreDotException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetCentreDotException" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot">
+            <message>
+              <![CDATA[Cone doesn't have centre dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot: Cone doesn't have centre dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getCentreDot(Cone.java:71)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetCentreDotException(ConeTest.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetCentreDotException -->
+        <test-method status="PASS" signature="coneGetForming()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetForming" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetForming -->
+        <test-method status="PASS" signature="coneGetFormingWithoutRad()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetFormingWithoutRad" duration-ms="8" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot">
+            <message>
+              <![CDATA[Cone without radius dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot: Cone without radius dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getForming(Cone.java:83)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetFormingWithoutRad(ConeTest.java:270)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetFormingWithoutRad -->
+        <test-method status="PASS" signature="coneGetFormingWithoutTop()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetFormingWithoutTop" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot">
+            <message>
+              <![CDATA[Cone doesn't have top dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot: Cone doesn't have top dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getForming(Cone.java:86)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetFormingWithoutTop(ConeTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetFormingWithoutTop -->
+        <test-method status="PASS" signature="coneGetHeightTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetHeightTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetHeightTest -->
+        <test-method status="PASS" signature="coneGetHeightTestWithoutCentre()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetHeightTestWithoutCentre" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot">
+            <message>
+              <![CDATA[Cone doesn't have centre dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot: Cone doesn't have centre dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getHeight(Cone.java:101)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetHeightTestWithoutCentre(ConeTest.java:200)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetHeightTestWithoutCentre -->
+        <test-method status="PASS" signature="coneGetHeightTestWithoutTop()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetHeightTestWithoutTop" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot">
+            <message>
+              <![CDATA[Cone doesn't have top dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot: Cone doesn't have top dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getHeight(Cone.java:104)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetHeightTestWithoutTop(ConeTest.java:210)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetHeightTestWithoutTop -->
+        <test-method status="PASS" signature="coneGetRadDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetRadDot" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetRadDot -->
+        <test-method status="PASS" signature="coneGetRadDotException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetRadDotException" duration-ms="4" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot">
+            <message>
+              <![CDATA[Cone without radius dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot: Cone without radius dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getRadDot(Cone.java:119)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetRadDotException(ConeTest.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetRadDotException -->
+        <test-method status="PASS" signature="coneGetRadiusTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetRadiusTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetRadiusTest -->
+        <test-method status="PASS" signature="coneGetRadiusTestWhithoutCentre()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetRadiusTestWhithoutCentre" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot">
+            <message>
+              <![CDATA[Cone doesn't have centre dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot: Cone doesn't have centre dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getRadius(Cone.java:54)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetRadiusTestWhithoutCentre(ConeTest.java:226)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetRadiusTestWhithoutCentre -->
+        <test-method status="PASS" signature="coneGetRadiusTestWhithoutRad()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetRadiusTestWhithoutRad" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot">
+            <message>
+              <![CDATA[Cone without radius dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot: Cone without radius dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getRadius(Cone.java:57)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetRadiusTestWhithoutRad(ConeTest.java:237)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutRadDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetRadiusTestWhithoutRad -->
+        <test-method status="PASS" signature="coneGetTopDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetTopDot" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetTopDot -->
+        <test-method status="PASS" signature="coneGetTopDotException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneGetTopDotException" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot">
+            <message>
+              <![CDATA[Cone doesn't have top dot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot: Cone doesn't have top dot
+at by.epam.javatraining.halavin.taskone.model.entity.Cone.getTopDot(Cone.java:42)
+at by.epam.javatraining.halavin.taskone.test.ConeTest.coneGetTopDotException(ConeTest.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutTopDot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneGetTopDotException -->
+        <test-method status="PASS" signature="coneHashCodeTestFalse()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneHashCodeTestFalse" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneHashCodeTestFalse -->
+        <test-method status="PASS" signature="coneHashCodeTestTrue()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneHashCodeTestTrue" duration-ms="4" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneHashCodeTestTrue -->
+        <test-method status="PASS" signature="coneSetCentreDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneSetCentreDot" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneSetCentreDot -->
+        <test-method status="PASS" signature="coneSetRadDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneSetRadDot" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneSetRadDot -->
+        <test-method status="PASS" signature="coneSetTopDot()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneSetTopDot" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneSetTopDot -->
+        <test-method status="PASS" signature="coneToStringTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeTest@1604f19]" name="coneToStringTest" duration-ms="2" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coneToStringTest -->
+      </class> <!-- by.epam.javatraining.halavin.taskone.test.ConeTest -->
+      <class name="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="beforeClass" is-config="true" duration-ms="11" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getSpaceRatio()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSpaceRatio" duration-ms="21" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceRatio -->
+        <test-method status="PASS" signature="getSpaceRatioTestNotCone()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSpaceRatioTestNotCone" duration-ms="3" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.NotConeInput">
+            <message>
+              <![CDATA[Object doesn't meet the conditions of the cone]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.NotConeInput: Object doesn't meet the conditions of the cone
+at by.epam.javatraining.halavin.taskone.model.logic.MethodsForCone.getSpaceRatio(MethodsForCone.java:81)
+at by.epam.javatraining.halavin.taskone.test.ConeMethodsTest.getSpaceRatioTestNotCone(ConeMethodsTest.java:126)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.NotConeInput -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceRatioTestNotCone -->
+        <test-method status="PASS" signature="getSpaceRatioTestPlateException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSpaceRatioTestPlateException" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.PlateDoesNotCrossCone">
+            <message>
+              <![CDATA[Plate doesn't cross the cone]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.PlateDoesNotCrossCone: Plate doesn't cross the cone
+at by.epam.javatraining.halavin.taskone.model.logic.MethodsForCone.getSpaceRatio(MethodsForCone.java:106)
+at by.epam.javatraining.halavin.taskone.test.ConeMethodsTest.getSpaceRatioTestPlateException(ConeMethodsTest.java:121)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.PlateDoesNotCrossCone -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceRatioTestPlateException -->
+        <test-method status="PASS" signature="getSpaceTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSpaceTest" duration-ms="1" started-at="2018-12-09T18:27:49Z" finished-at="2018-12-09T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceTest -->
+        <test-method status="PASS" signature="getSpaceTestException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSpaceTestException" duration-ms="2" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.NotConeInput">
+            <message>
+              <![CDATA[Object doesn't meet the conditions of the cone]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.NotConeInput: Object doesn't meet the conditions of the cone
+at by.epam.javatraining.halavin.taskone.model.logic.MethodsForCone.getSpace(MethodsForCone.java:33)
+at by.epam.javatraining.halavin.taskone.test.ConeMethodsTest.getSpaceTestException(ConeMethodsTest.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.NotConeInput -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceTestException -->
+        <test-method status="PASS" signature="getSquareTest()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSquareTest" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTest -->
+        <test-method status="PASS" signature="getSquareTestException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="getSquareTestException" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.NotConeInput">
+            <message>
+              <![CDATA[Object doesn't meet the conditions of the cone]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.NotConeInput: Object doesn't meet the conditions of the cone
+at by.epam.javatraining.halavin.taskone.model.logic.MethodsForCone.getSquare(MethodsForCone.java:15)
+at by.epam.javatraining.halavin.taskone.test.ConeMethodsTest.getSquareTestException(ConeMethodsTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.NotConeInput -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSquareTestException -->
+        <test-method status="PASS" signature="isConeTestFalse()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="isConeTestFalse" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConeTestFalse -->
+        <test-method status="PASS" signature="isConeTestTrue()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="isConeTestTrue" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isConeTestTrue -->
+        <test-method status="PASS" signature="isCoorPlaneException()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="isCoorPlaneException" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <exception class="by.epam.javatraining.halavin.taskone.model.exception.NotConeInput">
+            <message>
+              <![CDATA[Object doesn't meet the conditions of the cone]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.epam.javatraining.halavin.taskone.model.exception.NotConeInput: Object doesn't meet the conditions of the cone
+at by.epam.javatraining.halavin.taskone.model.logic.MethodsForCone.isCoorPlane(MethodsForCone.java:64)
+at by.epam.javatraining.halavin.taskone.test.ConeMethodsTest.isCoorPlaneException(ConeMethodsTest.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.epam.javatraining.halavin.taskone.model.exception.NotConeInput -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCoorPlaneException -->
+        <test-method status="PASS" signature="isCoorPlaneFalse()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="isCoorPlaneFalse" duration-ms="1" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCoorPlaneFalse -->
+        <test-method status="PASS" signature="isCoorPlaneTrue()[pri:0, instance:by.epam.javatraining.halavin.taskone.test.ConeMethodsTest@23a2f9]" name="isCoorPlaneTrue" duration-ms="2" started-at="2018-12-09T18:27:50Z" finished-at="2018-12-09T18:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCoorPlaneTrue -->
+      </class> <!-- by.epam.javatraining.halavin.taskone.test.ConeMethodsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
