@@ -1,4 +1,4 @@
-package by.epam.javatraining.halavin.taskone.util.Output;
+package by.epam.javatraining.halavin.taskone.util.output;
 
 import org.apache.log4j.Logger;
 

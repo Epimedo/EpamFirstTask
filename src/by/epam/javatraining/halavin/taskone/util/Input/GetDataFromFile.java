@@ -1,4 +1,4 @@
-package by.epam.javatraining.halavin.taskone.util.Input;
+package by.epam.javatraining.halavin.taskone.util.input;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

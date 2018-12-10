@@ -1,4 +1,4 @@
-package by.epam.javatraining.halavin.taskone.util.Output;
+package by.epam.javatraining.halavin.taskone.util.output;
 
 public abstract class Output implements Printer {
 	protected String str = "";

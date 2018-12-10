@@ -1,4 +1,4 @@
-package by.epam.javatraining.halavin.taskone.util.Output;
+package by.epam.javatraining.halavin.taskone.util.output;
 
 public class CreatorLogOutput implements Creator, EmptyCreator {
 

@@ -5,8 +5,8 @@ import by.epam.javatraining.halavin.taskone.model.exception.ConeException;
 import by.epam.javatraining.halavin.taskone.model.exception.ConeWithoutCentreDot;
 import by.epam.javatraining.halavin.taskone.model.exception.NotConeInput;
 import by.epam.javatraining.halavin.taskone.model.exception.PlateDoesNotCrossCone;
-import by.epam.javatraining.halavin.taskone.util.Output.CreatorLogOutput;
-import by.epam.javatraining.halavin.taskone.util.Output.Output;
+import by.epam.javatraining.halavin.taskone.util.output.CreatorLogOutput;
+import by.epam.javatraining.halavin.taskone.util.output.Output;
 
 public class MethodsForCone {
 
