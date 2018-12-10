@@ -6,6 +6,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
+import by.epam.javatraining.halavin.taskone.util.output.CreatorLogOutput;
+import by.epam.javatraining.halavin.taskone.util.output.Output;
+
 public class GetDataFromFile implements GetData {
 
 	private String fileName;
@@ -20,7 +23,8 @@ public class GetDataFromFile implements GetData {
 			lineStream.forEach(s->sb.append(s).append("\n"));
 
 		} catch (IOException e) {
-			e.printStackTrace();
+			Output out = new CreatorLogOutput().create();
+			out.print(e.getMessage());
 		}
 
 		return sb.toString();

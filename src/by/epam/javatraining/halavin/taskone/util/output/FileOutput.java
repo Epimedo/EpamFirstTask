@@ -41,7 +41,8 @@ public class FileOutput extends Output {
 			bf.write(this.str + str);
 
 		} catch (IOException e) {
-			throw new RuntimeException(e);
+			Output out = new CreatorLogOutput().create();
+			out.print(e.getMessage());
 		}
 	}
 
