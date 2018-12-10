@@ -33,6 +33,7 @@ public class MethodsForCone {
 			throw new NotConeInput();
 		}
 		double space = 0;
+
 		try {
 
 			space = cone.getHeight() / 3 * Math.pow(cone.getRadius(), 2.) * Math.PI;
@@ -64,6 +65,7 @@ public class MethodsForCone {
 			throw new NotConeInput();
 		}
 		boolean bool = false;
+
 		try {
 			if (cone.getCentreDot().getX() == 0 || cone.getCentreDot().getY() == 0 || cone.getCentreDot().getZ() == 0) {
 				bool = true;
@@ -116,6 +118,7 @@ public class MethodsForCone {
 			Output out = new CreatorLogOutput().create();
 			out.print(e.getMessage());
 		}
+
 		return ratio;
 	}
 }

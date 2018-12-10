@@ -16,9 +16,7 @@ public class Dot {
 	}
 
 	public Dot(Dot dot) {
-		x = dot.x;
-		y = dot.y;
-		z = dot.z;
+		this(dot.x, dot.y, dot.z);
 	}
 
 	public double getX() {
