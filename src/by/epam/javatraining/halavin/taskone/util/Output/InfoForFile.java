@@ -1,7 +1,7 @@
 package by.epam.javatraining.halavin.taskone.util.Output;
 
 public enum InfoForFile {
-	FILENAMEOUTPUT("D://output first task.txt");
+	FILENAMEOUTPUT("output/output first task.txt");
 
 	private String str;
 

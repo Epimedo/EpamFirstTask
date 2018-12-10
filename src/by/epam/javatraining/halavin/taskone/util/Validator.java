@@ -3,7 +3,7 @@ package by.epam.javatraining.halavin.taskone.util;
 import java.util.regex.Pattern;
 
 public class Validator {
-	private static final Pattern CHECK_DOUBLE = Pattern.compile("^-?[0-9]*\\.[0-9]+$");
+	private static final Pattern CHECK_DOUBLE = Pattern.compile("^-?[0-9]+\\.[0-9]+$");
 
 	public static String processCone(String str) {
 		String result = "";
