@@ -1,23 +1,23 @@
 package by.epam.javatraining.halavin.taskone.util.input;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 public class GetDataFromFile implements GetData {
 
-	private String FileName;
+	private String fileName;
 
 	@Override
 	public String read() {
-		String str = null;
+		Path path = Paths.get(fileName);
 		StringBuilder sb = new StringBuilder();
+		
+		try (Stream<String> lineStream = Files.newBufferedReader(path).lines()) {
 
-		try (BufferedReader reader = new BufferedReader(new FileReader(FileName))) {
-
-			while ((str = reader.readLine()) != null) {
-				sb.append(str).append("\n");
-			}
+			lineStream.forEach(s->sb.append(s).append("\n"));
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -27,11 +27,11 @@ public class GetDataFromFile implements GetData {
 	}
 
 	public String getFileName() {
-		return FileName;
+		return fileName;
 	}
 
 	public void setFileName(String fileName) {
-		FileName = fileName;
+		this.fileName = fileName;
 	}
 
 }
