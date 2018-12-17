@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\MARA7h0N\AppData\Local\Temp\testng-eclipse--302621057\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">61 methods,   61 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.LibraryMethosTest" hash-for-method="AddToFileTest">AddToFileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.LibraryMethosTest" hash-for-method="AddToFileTestException">AddToFileTestException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="addShapeToFileCommandTest">addShapeToFileCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneCopyConstructorTest">coneCopyConstructorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneEqualsTest">coneEqualsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetCentreDot">coneGetCentreDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetCentreDotException">coneGetCentreDotException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetForming">coneGetForming</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetFormingWithoutRad">coneGetFormingWithoutRad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetFormingWithoutTop">coneGetFormingWithoutTop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetHeightTest">coneGetHeightTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetHeightTestWithoutCentre">coneGetHeightTestWithoutCentre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetHeightTestWithoutTop">coneGetHeightTestWithoutTop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetRadDot">coneGetRadDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetRadDotException">coneGetRadDotException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetRadiusTest">coneGetRadiusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetRadiusTestWhithoutCentre">coneGetRadiusTestWhithoutCentre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetRadiusTestWhithoutRad">coneGetRadiusTestWhithoutRad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetTopDot">coneGetTopDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneGetTopDotException">coneGetTopDotException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneHashCodeTestFalse">coneHashCodeTestFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneHashCodeTestTrue">coneHashCodeTestTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneSetCentreDot">coneSetCentreDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneSetRadDot">coneSetRadDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneSetTopDot">coneSetTopDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeTest" hash-for-method="coneToStringTest">coneToStringTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotCopyConstructorTest">dotCopyConstructorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotEqualsTestFalse">dotEqualsTestFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotEqualsTestTrue">dotEqualsTestTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotGetXTest">dotGetXTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotGetYTest">dotGetYTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotGetZTest">dotGetZTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotHashCodeTestFalse">dotHashCodeTestFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotHashCodeTestTrue">dotHashCodeTestTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotParameterConstructorTest">dotParameterConstructorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotSetXTest">dotSetXTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotSetYTest">dotSetYTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotSetZTest">dotSetZTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.DotTest" hash-for-method="dotToString">dotToString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSpaceRatio">getSpaceRatio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSpaceRatioTestNotCone">getSpaceRatioTestNotCone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSpaceRatioTestPlateException">getSpaceRatioTestPlateException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSpaceTest">getSpaceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSpaceTestException">getSpaceTestException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSquareTest">getSquareTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="getSquareTestException">getSquareTestException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="isConeTestFalse">isConeTestFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="isConeTestTrue">isConeTestTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="isCoorPlaneCommandTest">isCoorPlaneCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="isCoorPlaneException">isCoorPlaneException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="isCoorPlaneFalse">isCoorPlaneFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ConeMethodsTest" hash-for-method="isCoorPlaneTrue">isCoorPlaneTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="isFigureCommandTest">isFigureCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="spaceCommandTest">spaceCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="spaceRatioCommandTest">spaceRatioCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="squareCommandTest">squareCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ValidatorTest" hash-for-method="validatorConeNegTest">validatorConeNegTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ValidatorTest" hash-for-method="validatorConeTest">validatorConeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ValidatorTest" hash-for-method="validatorDotNegTest">validatorDotNegTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.ValidatorTest" hash-for-method="validatorDotTest">validatorDotTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="by.epam.javatraining.halavin.taskone.test.SystemTest" hash-for-method="wrongCommandTest">wrongCommandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.ConeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneCopyConstructorTest">
+                  </a> <!-- coneCopyConstructorTest -->
+                  <span class="method-name">coneCopyConstructorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneEqualsTest">
+                  </a> <!-- coneEqualsTest -->
+                  <span class="method-name">coneEqualsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetCentreDot">
+                  </a> <!-- coneGetCentreDot -->
+                  <span class="method-name">coneGetCentreDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetCentreDotException">
+                  </a> <!-- coneGetCentreDotException -->
+                  <span class="method-name">coneGetCentreDotException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetForming">
+                  </a> <!-- coneGetForming -->
+                  <span class="method-name">coneGetForming</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetFormingWithoutRad">
+                  </a> <!-- coneGetFormingWithoutRad -->
+                  <span class="method-name">coneGetFormingWithoutRad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetFormingWithoutTop">
+                  </a> <!-- coneGetFormingWithoutTop -->
+                  <span class="method-name">coneGetFormingWithoutTop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetHeightTest">
+                  </a> <!-- coneGetHeightTest -->
+                  <span class="method-name">coneGetHeightTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetHeightTestWithoutCentre">
+                  </a> <!-- coneGetHeightTestWithoutCentre -->
+                  <span class="method-name">coneGetHeightTestWithoutCentre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetHeightTestWithoutTop">
+                  </a> <!-- coneGetHeightTestWithoutTop -->
+                  <span class="method-name">coneGetHeightTestWithoutTop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetRadDot">
+                  </a> <!-- coneGetRadDot -->
+                  <span class="method-name">coneGetRadDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetRadDotException">
+                  </a> <!-- coneGetRadDotException -->
+                  <span class="method-name">coneGetRadDotException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetRadiusTest">
+                  </a> <!-- coneGetRadiusTest -->
+                  <span class="method-name">coneGetRadiusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetRadiusTestWhithoutCentre">
+                  </a> <!-- coneGetRadiusTestWhithoutCentre -->
+                  <span class="method-name">coneGetRadiusTestWhithoutCentre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetRadiusTestWhithoutRad">
+                  </a> <!-- coneGetRadiusTestWhithoutRad -->
+                  <span class="method-name">coneGetRadiusTestWhithoutRad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetTopDot">
+                  </a> <!-- coneGetTopDot -->
+                  <span class="method-name">coneGetTopDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneGetTopDotException">
+                  </a> <!-- coneGetTopDotException -->
+                  <span class="method-name">coneGetTopDotException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneHashCodeTestFalse">
+                  </a> <!-- coneHashCodeTestFalse -->
+                  <span class="method-name">coneHashCodeTestFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneHashCodeTestTrue">
+                  </a> <!-- coneHashCodeTestTrue -->
+                  <span class="method-name">coneHashCodeTestTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneSetCentreDot">
+                  </a> <!-- coneSetCentreDot -->
+                  <span class="method-name">coneSetCentreDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneSetRadDot">
+                  </a> <!-- coneSetRadDot -->
+                  <span class="method-name">coneSetRadDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneSetTopDot">
+                  </a> <!-- coneSetTopDot -->
+                  <span class="method-name">coneSetTopDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coneToStringTest">
+                  </a> <!-- coneToStringTest -->
+                  <span class="method-name">coneToStringTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.DotTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotCopyConstructorTest">
+                  </a> <!-- dotCopyConstructorTest -->
+                  <span class="method-name">dotCopyConstructorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotEqualsTestFalse">
+                  </a> <!-- dotEqualsTestFalse -->
+                  <span class="method-name">dotEqualsTestFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotEqualsTestTrue">
+                  </a> <!-- dotEqualsTestTrue -->
+                  <span class="method-name">dotEqualsTestTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotGetXTest">
+                  </a> <!-- dotGetXTest -->
+                  <span class="method-name">dotGetXTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotGetYTest">
+                  </a> <!-- dotGetYTest -->
+                  <span class="method-name">dotGetYTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotGetZTest">
+                  </a> <!-- dotGetZTest -->
+                  <span class="method-name">dotGetZTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotHashCodeTestFalse">
+                  </a> <!-- dotHashCodeTestFalse -->
+                  <span class="method-name">dotHashCodeTestFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotHashCodeTestTrue">
+                  </a> <!-- dotHashCodeTestTrue -->
+                  <span class="method-name">dotHashCodeTestTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotParameterConstructorTest">
+                  </a> <!-- dotParameterConstructorTest -->
+                  <span class="method-name">dotParameterConstructorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotSetXTest">
+                  </a> <!-- dotSetXTest -->
+                  <span class="method-name">dotSetXTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotSetYTest">
+                  </a> <!-- dotSetYTest -->
+                  <span class="method-name">dotSetYTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotSetZTest">
+                  </a> <!-- dotSetZTest -->
+                  <span class="method-name">dotSetZTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dotToString">
+                  </a> <!-- dotToString -->
+                  <span class="method-name">dotToString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.ConeMethodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpaceRatio">
+                  </a> <!-- getSpaceRatio -->
+                  <span class="method-name">getSpaceRatio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpaceRatioTestNotCone">
+                  </a> <!-- getSpaceRatioTestNotCone -->
+                  <span class="method-name">getSpaceRatioTestNotCone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpaceRatioTestPlateException">
+                  </a> <!-- getSpaceRatioTestPlateException -->
+                  <span class="method-name">getSpaceRatioTestPlateException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpaceTest">
+                  </a> <!-- getSpaceTest -->
+                  <span class="method-name">getSpaceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpaceTestException">
+                  </a> <!-- getSpaceTestException -->
+                  <span class="method-name">getSpaceTestException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSquareTest">
+                  </a> <!-- getSquareTest -->
+                  <span class="method-name">getSquareTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSquareTestException">
+                  </a> <!-- getSquareTestException -->
+                  <span class="method-name">getSquareTestException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConeTestFalse">
+                  </a> <!-- isConeTestFalse -->
+                  <span class="method-name">isConeTestFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isConeTestTrue">
+                  </a> <!-- isConeTestTrue -->
+                  <span class="method-name">isConeTestTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCoorPlaneException">
+                  </a> <!-- isCoorPlaneException -->
+                  <span class="method-name">isCoorPlaneException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCoorPlaneFalse">
+                  </a> <!-- isCoorPlaneFalse -->
+                  <span class="method-name">isCoorPlaneFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCoorPlaneTrue">
+                  </a> <!-- isCoorPlaneTrue -->
+                  <span class="method-name">isCoorPlaneTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.LibraryMethosTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToFileTest">
+                  </a> <!-- AddToFileTest -->
+                  <span class="method-name">AddToFileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToFileTestException">
+                  </a> <!-- AddToFileTestException -->
+                  <span class="method-name">AddToFileTestException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.ValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatorConeNegTest">
+                  </a> <!-- validatorConeNegTest -->
+                  <span class="method-name">validatorConeNegTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatorConeTest">
+                  </a> <!-- validatorConeTest -->
+                  <span class="method-name">validatorConeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatorDotNegTest">
+                  </a> <!-- validatorDotNegTest -->
+                  <span class="method-name">validatorDotNegTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatorDotTest">
+                  </a> <!-- validatorDotTest -->
+                  <span class="method-name">validatorDotTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.epam.javatraining.halavin.taskone.test.SystemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addShapeToFileCommandTest">
+                  </a> <!-- addShapeToFileCommandTest -->
+                  <span class="method-name">addShapeToFileCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCoorPlaneCommandTest">
+                  </a> <!-- isCoorPlaneCommandTest -->
+                  <span class="method-name">isCoorPlaneCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFigureCommandTest">
+                  </a> <!-- isFigureCommandTest -->
+                  <span class="method-name">isFigureCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="spaceCommandTest">
+                  </a> <!-- spaceCommandTest -->
+                  <span class="method-name">spaceCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="spaceRatioCommandTest">
+                  </a> <!-- spaceRatioCommandTest -->
+                  <span class="method-name">spaceRatioCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="squareCommandTest">
+                  </a> <!-- squareCommandTest -->
+                  <span class="method-name">squareCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongCommandTest">
+                  </a> <!-- wrongCommandTest -->
+                  <span class="method-name">wrongCommandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MARA7h0N\AppData\Local\Temp\testng-eclipse--302621057\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.LibraryMethosTest&quot;/&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.SystemTest&quot;/&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.DotTest&quot;/&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.ValidatorTest&quot;/&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.ConeTest&quot;/&gt;
+      &lt;class name=&quot;by.epam.javatraining.halavin.taskone.test.ConeMethodsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(61);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addShapeToFileCommandTest')
+data.setCell(0, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(0, 3, 141);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddToFileTest')
+data.setCell(1, 2, 'by.epam.javatraining.halavin.taskone.test.LibraryMethosTest')
+data.setCell(1, 3, 47);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'coneHashCodeTestFalse')
+data.setCell(2, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(2, 3, 31);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'squareCommandTest')
+data.setCell(3, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(3, 3, 16);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isCoorPlaneFalse')
+data.setCell(4, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dotGetZTest')
+data.setCell(5, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'coneGetHeightTest')
+data.setCell(6, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(6, 3, 16);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'isFigureCommandTest')
+data.setCell(7, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(7, 3, 15);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'coneGetForming')
+data.setCell(8, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(8, 3, 15);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'coneGetRadiusTest')
+data.setCell(9, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(9, 3, 15);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatorConeTest')
+data.setCell(10, 2, 'by.epam.javatraining.halavin.taskone.test.ValidatorTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'coneToStringTest')
+data.setCell(11, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'isConeTestFalse')
+data.setCell(12, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'coneGetFormingWithoutTop')
+data.setCell(13, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'coneGetTopDotException')
+data.setCell(14, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getSpaceTest')
+data.setCell(15, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validatorDotTest')
+data.setCell(16, 2, 'by.epam.javatraining.halavin.taskone.test.ValidatorTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'dotHashCodeTestFalse')
+data.setCell(17, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'coneGetCentreDot')
+data.setCell(18, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'coneGetTopDot')
+data.setCell(19, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validatorConeNegTest')
+data.setCell(20, 2, 'by.epam.javatraining.halavin.taskone.test.ValidatorTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'coneGetFormingWithoutRad')
+data.setCell(21, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'coneSetCentreDot')
+data.setCell(22, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'dotToString')
+data.setCell(23, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'coneGetRadDot')
+data.setCell(24, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'coneGetRadiusTestWhithoutCentre')
+data.setCell(25, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'coneGetRadiusTestWhithoutRad')
+data.setCell(26, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getSpaceRatio')
+data.setCell(27, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dotSetZTest')
+data.setCell(28, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'coneHashCodeTestTrue')
+data.setCell(29, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getSpaceRatioTestNotCone')
+data.setCell(30, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'dotEqualsTestFalse')
+data.setCell(31, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'spaceRatioCommandTest')
+data.setCell(32, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'coneCopyConstructorTest')
+data.setCell(33, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'getSquareTest')
+data.setCell(34, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'isConeTestTrue')
+data.setCell(35, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'coneEqualsTest')
+data.setCell(36, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'dotGetXTest')
+data.setCell(37, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'dotSetYTest')
+data.setCell(38, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'spaceCommandTest')
+data.setCell(39, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'isCoorPlaneException')
+data.setCell(40, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'getSpaceRatioTestPlateException')
+data.setCell(41, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'isCoorPlaneTrue')
+data.setCell(42, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'coneGetHeightTestWithoutTop')
+data.setCell(43, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'getSpaceTestException')
+data.setCell(44, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'AddToFileTestException')
+data.setCell(45, 2, 'by.epam.javatraining.halavin.taskone.test.LibraryMethosTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'dotCopyConstructorTest')
+data.setCell(46, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'coneGetCentreDotException')
+data.setCell(47, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'coneSetRadDot')
+data.setCell(48, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'dotHashCodeTestTrue')
+data.setCell(49, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'dotParameterConstructorTest')
+data.setCell(50, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'dotGetYTest')
+data.setCell(51, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'wrongCommandTest')
+data.setCell(52, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'dotEqualsTestTrue')
+data.setCell(53, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'dotSetXTest')
+data.setCell(54, 2, 'by.epam.javatraining.halavin.taskone.test.DotTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'validatorDotNegTest')
+data.setCell(55, 2, 'by.epam.javatraining.halavin.taskone.test.ValidatorTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'coneGetRadDotException')
+data.setCell(56, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'coneGetHeightTestWithoutCentre')
+data.setCell(57, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'coneSetTopDot')
+data.setCell(58, 2, 'by.epam.javatraining.halavin.taskone.test.ConeTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'isCoorPlaneCommandTest')
+data.setCell(59, 2, 'by.epam.javatraining.halavin.taskone.test.SystemTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'getSquareTestException')
+data.setCell(60, 2, 'by.epam.javatraining.halavin.taskone.test.ConeMethodsTest')
+data.setCell(60, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 328 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.ConeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.LibraryMethosTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddToFileTest</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddToFileTestException</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.SystemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addShapeToFileCommandTest</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCoorPlaneCommandTest</span>
+                <span class="method-start">344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isFigureCommandTest</span>
+                <span class="method-start">344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">spaceCommandTest</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">spaceRatioCommandTest</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">squareCommandTest</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wrongCommandTest</span>
+                <span class="method-start">375 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.DotTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">375 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dotCopyConstructorTest</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotEqualsTestFalse</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotEqualsTestTrue</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotGetXTest</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotGetYTest</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotGetZTest</span>
+                <span class="method-start">406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotHashCodeTestFalse</span>
+                <span class="method-start">422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotHashCodeTestTrue</span>
+                <span class="method-start">422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotParameterConstructorTest</span>
+                <span class="method-start">422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotSetXTest</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotSetYTest</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotSetZTest</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dotToString</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.ValidatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validatorConeNegTest</span>
+                <span class="method-start">468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatorConeTest</span>
+                <span class="method-start">468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatorDotNegTest</span>
+                <span class="method-start">468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatorDotTest</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.ConeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">coneCopyConstructorTest</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneEqualsTest</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetCentreDot</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetCentreDotException</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetForming</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetFormingWithoutRad</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetFormingWithoutTop</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetHeightTest</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetHeightTestWithoutCentre</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetHeightTestWithoutTop</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetRadDot</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetRadDotException</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetRadiusTest</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetRadiusTestWhithoutCentre</span>
+                <span class="method-start">546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetRadiusTestWhithoutRad</span>
+                <span class="method-start">546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetTopDot</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneGetTopDotException</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneHashCodeTestFalse</span>
+                <span class="method-start">562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneHashCodeTestTrue</span>
+                <span class="method-start">593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneSetCentreDot</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneSetRadDot</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneSetTopDot</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">coneToStringTest</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">by.epam.javatraining.halavin.taskone.test.ConeMethodsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getSpaceRatio</span>
+                <span class="method-start">640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSpaceRatioTestNotCone</span>
+                <span class="method-start">640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSpaceRatioTestPlateException</span>
+                <span class="method-start">640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSpaceTest</span>
+                <span class="method-start">656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSpaceTestException</span>
+                <span class="method-start">656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSquareTest</span>
+                <span class="method-start">656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSquareTestException</span>
+                <span class="method-start">656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConeTestFalse</span>
+                <span class="method-start">671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isConeTestTrue</span>
+                <span class="method-start">671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCoorPlaneException</span>
+                <span class="method-start">671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCoorPlaneFalse</span>
+                <span class="method-start">671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCoorPlaneTrue</span>
+                <span class="method-start">687 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

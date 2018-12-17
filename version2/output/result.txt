@@ -1,0 +1,33 @@
+
+Dot
+centre Dot
+x = 1.0
+y = 2.0
+z = 5.0
+radius Dot
+x = 1.0
+y = 7.0
+z = 5.0
+top Dot
+x = 5.0
+y = 2.0
+z = 5.0
+heigth = 0.0
+radius = 0.0
+forming = 0.0
+Dot
+centre Dot
+x = 1.0
+y = 2.0
+z = 5.0
+radius Dot
+x = 1.0
+y = 7.0
+z = 5.0
+top Dot
+x = 5.0
+y = 2.0
+z = 5.0
+heigth = 0.0
+radius = 0.0
+forming = 0.0
